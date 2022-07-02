@@ -8,10 +8,10 @@ OPTIMISATIONS=-O3
 MEMORY=32*1024*1024
 
 if emcc $INPUT 
-        $OPTIMISATIONS
-        -o build/app_wasm.js
-        -s TOTAL_MEMORY=$MEMORY
-        -s WASM=1
+          $OPTIMISATIONS
+          -o build/app_wasm.js
+          -s TOTAL_MEMORY=$MEMORY
+          -s WASM=1
           then;
 
 echo "AWWW YEAH!";
