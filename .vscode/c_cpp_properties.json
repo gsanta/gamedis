@@ -12,10 +12,27 @@
             ],
             "windowsSdkVersion": "10.0.16299.0",
             "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\Hostx64\\x64\\cl.exe",
-            "cStandard": "c17",
+            "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"
-        }
+        },
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x64",
+            "includePath": ["${default}", "/Users/gergely.santa/Dev/emsdk/upstream/emscripten/cache/sysroot/include/**", "engine/src/**"],
+            "macFrameworkPath": ["/System/Library/Frameworks"],
+            // "defines": ["FOO", "BAR=100"],
+            // "forcedInclude": ["${workspaceFolder}/include/config.h"],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            // "compileCommands": "/path/to/compile_commands.json",
+            // "browse": {
+            //   "path": ["${workspaceFolder}"],
+            //   "limitSymbolsToIncludedHeaders": true,
+            //   "databaseFilename": ""
+            // }
+          }
     ],
     "version": 4
 }

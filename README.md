@@ -1,4 +1,4 @@
-## Development
+# Development
 
 Run rails server: `bin/rails server`
 Run database: `docker-compose up`
@@ -21,4 +21,8 @@ repeat above process for the client app
 set APP_BASE config var on heroku for client app
 `APP_BASE=client`
 
-test8
+## Engine
+
+compile engine: 
+
+`emcc src/main.cpp -o build/app_wasm.js -s TOTAL_MEMORY=33554432 -s WASM=1 -std=c++11`
