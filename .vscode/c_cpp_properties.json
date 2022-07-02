@@ -19,7 +19,7 @@
         {
             "name": "Mac",
             "intelliSenseMode": "clang-x64",
-            "includePath": ["${default}", "/Users/gergely.santa/Dev/emsdk/upstream/emscripten/cache/sysroot/include/**", "engine/src/**"],
+            "includePath": ["${default}", "engine/includes/**", "/Users/gergely.santa/Dev/emsdk/upstream/emscripten/cache/sysroot/include/**", "engine/src/**"],
             "macFrameworkPath": ["/System/Library/Frameworks"],
             // "defines": ["FOO", "BAR=100"],
             // "forcedInclude": ["${workspaceFolder}/include/config.h"],
